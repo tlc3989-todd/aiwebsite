@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9XNX87PXVR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9XNX87PXVR');
+</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms & Conditions | Jupiter AI Advisors</title>
+  <style>
+    :root {
+      --navy: #061f49;
+      --navy-dark: #031735;
+      --teal: #009ec3;
+      --teal-light: #11bfd8;
+      --text: #08234d;
+      --muted: #4e6179;
+      --border: #d7e8ef;
+      --soft: #f6fbfd;
+      --white: #ffffff;
+      --shadow: 0 18px 42px rgba(6, 31, 73, 0.10);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1160px, 92%);
+      margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255, 255, 255, 0.97);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(215, 232, 239, 0.75);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 26px;
+      padding: 24px 0;
+    }
+
+    .site-logo img {
+      height: 108px;
+      width: auto;
+      display: block;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 38px;
+      color: var(--navy);
+      font-size: 1rem;
+      font-weight: 850;
+    }
+
+    nav a:first-child {
+      color: var(--teal);
+      border-bottom: 3px solid var(--teal);
+      padding-bottom: 9px;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      white-space: nowrap;
+    }
+
+    .top-phone {
+      color: var(--navy);
+      font-size: 0.95rem;
+      font-weight: 900;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border: none;
+      border-radius: 10px;
+      padding: 15px 24px;
+      font-weight: 900;
+      line-height: 1;
+      cursor: pointer;
+      transition: 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 28px rgba(3, 166, 201, 0.22);
+    }
+
+    .btn-primary {
+      color: white;
+      background: linear-gradient(135deg, var(--teal), var(--teal-light));
+      box-shadow: 0 10px 24px rgba(3,166,201,0.25);
+    }
+
+    .btn-dark {
+      color: white;
+      background: var(--navy);
+    }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      overflow: hidden;
+      min-height: 610px;
+      display: flex;
+      align-items: center;
+      background:
+        linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.98) 34%, rgba(255,255,255,0.72) 52%, rgba(255,255,255,0.06) 78%),
+        url("https://assets.cdn.filesafe.space/bUi6cRjzBgtecfzkYN4W/media/6a0233a6d11dcc87052ce8e0.png") center right / cover no-repeat;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 560px;
+      padding: 92px 0;
+    }
+
+    h1 {
+      color: var(--navy);
+      font-size: clamp(3.2rem, 7vw, 5.75rem);
+      line-height: 0.98;
+      letter-spacing: -0.065em;
+      margin-bottom: 22px;
+    }
+
+    h1 .accent {
+      color: var(--teal);
+    }
+
+    .hero h2 {
+      color: var(--teal);
+      font-size: clamp(1.35rem, 3vw, 2rem);
+      line-height: 1.2;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      max-width: 520px;
+      color: var(--navy);
+      font-size: 1.13rem;
+      margin-bottom: 32px;
+    }
+
+    /* Benefit Strip */
+    .benefits {
+      background: rgba(245, 251, 253, 0.98);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 34px 0;
+    }
+
+    .benefit-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+    }
+
+    .benefit {
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+      padding: 12px 28px;
+      border-right: 1px solid var(--border);
+    }
+
+    .benefit:last-child {
+      border-right: 0;
+    }
+
+    .benefit-icon {
+      color: var(--teal);
+      font-size: 2.4rem;
+      line-height: 1;
+    }
+
+    .benefit h3 {
+      color: var(--navy);
+      font-size: 1.08rem;
+      line-height: 1.25;
+      margin-bottom: 8px;
+    }
+
+    .benefit p {
+      color: var(--navy);
+      font-size: 0.92rem;
+    }
+
+    /* Pricing */
+    section {
+      padding: 72px 0;
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 36px;
+    }
+
+    .section-header h2 {
+      color: var(--navy);
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      line-height: 1.1;
+      letter-spacing: -0.035em;
+      margin-bottom: 10px;
+    }
+
+    .section-header p {
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .about-section {
+      background: var(--soft);
+      padding-top: 78px;
+      padding-bottom: 40px;
+    }
+
+    .about-card {
+      max-width: 980px;
+      margin: 0 auto;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 42px;
+      box-shadow: 0 14px 34px rgba(6,31,73,0.06);
+    }
+
+    .about-card p {
+      color: var(--navy);
+      font-size: 1.04rem;
+      margin-bottom: 18px;
+      line-height: 1.8;
+    }
+
+    .about-card p:last-child {
+      margin-bottom: 0;
+    }
+
+
+    .about-card h3 {
+      color: var(--navy);
+      margin-top: 28px;
+      margin-bottom: 12px;
+      font-size: 1.2rem;
+    }
+
+    .about-card ul {
+      margin-left: 24px;
+      margin-bottom: 20px;
+    }
+
+    .about-card li {
+      margin-bottom: 10px;
+      color: var(--navy);
+    }
+
+    .pricing-grid {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    .price-card {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 34px 32px;
+      box-shadow: 0 14px 36px rgba(6,31,73,0.07);
+    }
+
+    .price-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      background: linear-gradient(135deg, var(--teal), var(--teal-light));
+      color: white;
+      font-size: 2rem;
+    }
+
+    .price-card:nth-child(3) .price-icon {
+      background: var(--navy);
+    }
+
+    .price-card h3 {
+      color: var(--navy);
+      font-size: 1.35rem;
+      margin-bottom: 4px;
+    }
+
+    .sub {
+      color: var(--navy);
+      font-size: 0.93rem;
+      margin-bottom: 18px;
+    }
+
+    .price {
+      color: var(--navy);
+      font-size: 2.6rem;
+      font-weight: 950;
+      line-height: 1;
+      margin-bottom: 10px;
+    }
+
+    .price small {
+      color: var(--navy);
+      font-size: 0.9rem;
+      font-weight: 800;
+    }
+
+    .desc {
+      color: var(--navy);
+      font-size: 0.95rem;
+      margin: 8px 0 22px;
+    }
+
+    .price-card ul {
+      list-style: none;
+      text-align: left;
+      margin-bottom: 28px;
+      flex: 1;
+    }
+
+    .price-card li {
+      position: relative;
+      color: var(--navy);
+      font-size: 0.95rem;
+      margin: 10px 0;
+      padding-left: 26px;
+    }
+
+    .price-card li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--teal);
+      font-weight: 950;
+    }
+
+    .card-note {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 14px;
+    }
+
+    /* Lower Panels */
+    .lower-panels {
+      max-width: 1000px;
+      margin: 32px auto 0;
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 24px;
+    }
+
+    .panel {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 12px 30px rgba(6,31,73,0.06);
+    }
+
+    .panel h3 {
+      text-align: center;
+      color: var(--navy);
+      font-size: 1.25rem;
+      margin-bottom: 18px;
+    }
+
+    .industry-icons {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+      text-align: center;
+      color: var(--navy);
+    }
+
+    .industry-icons div {
+      font-size: 2rem;
+    }
+
+    .industry-icons span {
+      display: block;
+      font-size: 0.75rem;
+      margin-top: 8px;
+      color: var(--navy);
+    }
+
+    .contact-card p {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      color: var(--navy);
+      font-size: 1.08rem;
+      font-weight: 700;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .contact-card p:last-child {
+      border-bottom: 0;
+    }
+
+    .contact-icon {
+      color: var(--teal);
+      font-size: 1.65rem;
+      min-width: 42px;
+      text-align: center;
+    }
+
+    /* Footer */
+    footer {
+      background: linear-gradient(135deg, var(--navy), #041531 70%);
+      color: rgba(255,255,255,0.78);
+      padding: 38px 0 18px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.25fr 1fr 0.8fr 1.1fr;
+      gap: 28px;
+      align-items: start;
+    }
+
+    .footer-logo img {
+      height: 82px;
+      width: auto;
+      display: block;
+      margin-bottom: 16px;
+    }
+
+    footer h4 {
+      color: white;
+      margin-bottom: 12px;
+    }
+
+    footer p {
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+    }
+
+    .socials {
+      display: flex;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .socials a {
+      text-decoration: none;
+    }
+
+    .socials span {
+      width: 34px;
+      height: 34px;
+      border: 1px solid rgba(255,255,255,0.35);
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 0.85rem;
+      font-weight: 800;
+    }
+
+    .copyright {
+      text-align: center;
+      color: rgba(255,255,255,0.74);
+      font-size: 0.9rem;
+      border-top: 1px solid rgba(255,255,255,0.12);
+      padding-top: 16px;
+      margin-top: 28px;
+    }
+
+    @media (max-width: 1050px) {
+      nav { display: none; }
+      .top-phone { display: none; }
+      .benefit-grid,
+      .pricing-grid,
+      .lower-panels,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .benefit {
+        border-right: 0;
+        border-bottom: 1px solid var(--border);
+      }
+      .benefit:last-child {
+        border-bottom: 0;
+      }
+      .hero {
+        background:
+          linear-gradient(90deg, rgba(255,255,255,0.94) 0%, rgba(255,255,255,0.88) 100%),
+          url("https://assets.cdn.filesafe.space/bUi6cRjzBgtecfzkYN4W/media/6a0233a6d11dcc87052ce8e0.png") center / cover no-repeat;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .nav {
+        padding: 14px 0;
+      }
+      .site-logo img {
+        height: 72px;
+      }
+      .header-actions .btn {
+        padding: 12px 14px;
+        font-size: 0.85rem;
+      }
+      .hero {
+        min-height: auto;
+      }
+      .hero-content {
+        padding: 66px 0;
+      }
+      .industry-icons {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="#home" class="site-logo" aria-label="Jupiter AI Advisors home">
+        <img src="https://assets.cdn.filesafe.space/bUi6cRjzBgtecfzkYN4W/media/6a023371d11dcc87052cdbf2.png" alt="Jupiter AI Advisors" />
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/privacy-policy.html">Privacy Policy</a>
+        <a href="/terms-and-conditions.html">Terms</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="top-phone" href="tel:15615107822">📞 / 💬 561-510-7822</a>
+    <a class="btn btn-primary" href="tel:15615107822">Book a Demo →</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="about-section" id="terms">
+      <div class="container">
+        <div class="section-header">
+          <h2>Terms &amp; Conditions</h2>
+          <p>Effective Date: May 13, 2026</p>
+        </div>
+
+        <div class="about-card">
+          <p>Welcome to <strong>Jupiter AI Advisors</strong>. By accessing or using this website, services, software integrations, automation systems, communication tools, or consulting services, you agree to the following Terms &amp; Conditions.</p>
+
+          <h3>Services Overview</h3>
+          <p>Jupiter AI Advisors provides consulting, advisory, workflow automation, CRM configuration, AI-enabled communication systems, customer engagement tools, and related business technology services.</p>
+          <p>Services may include but are not limited to:</p>
+          <ul>
+            <li>CRM setup and optimization</li>
+            <li>AI workflow automation</li>
+            <li>Lead management systems</li>
+            <li>Voice and SMS communication systems</li>
+            <li>Appointment scheduling systems</li>
+            <li>Operational consulting</li>
+            <li>Third-party platform integrations</li>
+          </ul>
+
+          <h3>AI &amp; Automation Disclaimer</h3>
+          <p>AI-powered systems and automation tools may generate responses, recommendations, workflows, or communication outputs automatically. While we strive to improve accuracy and operational performance, automated systems are not guaranteed to be error-free.</p>
+          <p>Clients are responsible for reviewing and monitoring all communications, workflows, and business operations implemented through AI or automation systems.</p>
+
+          <h3>No Legal, Financial, or Professional Advice</h3>
+          <p>Jupiter AI Advisors does not provide legal, accounting, tax, medical, or financial advice. Clients are responsible for consulting licensed professionals regarding regulatory or legal compliance related to their industry.</p>
+
+          <h3>Third-Party Platforms</h3>
+          <p>Our services may involve third-party software platforms, including CRM systems, AI providers, communication tools, hosting services, analytics tools, and automation providers.</p>
+          <p>We are not responsible for outages, failures, policy changes, pricing changes, or operational issues caused by third-party providers.</p>
+
+          <h3>Communication Consent</h3>
+          <p>By submitting information through our website, forms, or communication systems, you consent to receive phone calls, emails, text messages, and automated communications from Jupiter AI Advisors.</p>
+          <p>Message frequency may vary. Message and data rates may apply.</p>
+          <p>You may opt out of SMS communications at any time by replying STOP.</p>
+            <p>Carriers are not liable for delayed or undelivered messages.</p>
+
+          <h3>Client Responsibilities</h3>
+          <p>Clients are responsible for:</p>
+          <ul>
+            <li>Providing accurate information</li>
+            <li>Maintaining compliance within their industry</li>
+            <li>Reviewing communications and automation workflows</li>
+            <li>Maintaining account credentials and security</li>
+            <li>Ensuring lawful use of communication systems</li>
+          </ul>
+
+          <h3>Payments &amp; Fees</h3>
+          <p>Pricing, subscriptions, setup fees, and service costs may vary depending on services provided and third-party platform costs.</p>
+          <p>All payments are non-refundable unless otherwise agreed in writing.</p>
+
+          <h3>Limitation of Liability</h3>
+          <p>To the fullest extent permitted by law, Jupiter AI Advisors shall not be liable for indirect, incidental, consequential, or special damages arising from the use of our website, services, software systems, automation workflows, or communication platforms.</p>
+
+          <h3>Intellectual Property</h3>
+          <p>All branding, website content, graphics, workflows, and materials provided by Jupiter AI Advisors remain the intellectual property of Jupiter AI Advisors unless otherwise agreed in writing.</p>
+
+          <h3>Termination</h3>
+          <p>We reserve the right to suspend or terminate services at any time for misuse, unlawful activity, abuse of systems, or violations of these Terms &amp; Conditions.</p>
+
+          <h3>Changes to Terms</h3>
+          <p>We may update these Terms &amp; Conditions periodically. Updates will be posted on this page with a revised effective date.</p>
+          <p> If you have any questions regarding privacy, please read our <a href="https://www.jupiteraiadvisors.com/privacypolicy">privacy policy:</a></p>
+
+          <h3>Contact Information</h3>
+          <p>
+            Jupiter AI Advisors<br>
+            110 Front St. Suite 300<br>
+            Jupiter, FL 33477
+          </p>
+          <p>
+            Phone: <a href="tel:15615107822">561-510-7822</a><br>
+            Website: <a href="https://www.jupiteraiadvisors.com">www.jupiteraiadvisors.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+  <div class="container footer-grid">
+
+    <div>
+      <div class="footer-logo">
+        <img src="https://assets.cdn.filesafe.space/bUi6cRjzBgtecfzkYN4W/media/6a02452b939c0e5f20682845.png" alt="Jupiter AI Advisors" />
+      </div>
+
+      <p>AI solutions with a human touch.</p>
+      <p>Helping businesses automate, communicate, and grow.</p>
+
+      <div class="socials">
+        <a href="https://www.facebook.com/profile.php?id=61589352937855" target="_blank">
+          <span>f</span>
+        </a>
+
+        <a href="https://www.linkedin.com/company/jupiter-ai-advisors/" target="_blank">
+          <span>in</span>
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+          <span>◎</span>
+        </a>
+      </div>
+    </div>
+
+    <div>
+      <h4>Quick Links</h4>
+
+      <p><a href="#home">Home</a></p>
+      <p><a href="#industries">Industries</a></p>
+      <p><a href="#about">About</a></p>
+
+      <p>
+        <a href="https://www.jupiteraiadvisors.com/privacypolicy.html">
+          Privacy Policy
+        </a>
+      </p>
+
+      <p>
+        <a href="https://www.jupiteraiadvisors.com/termsandconditions.html">
+          Terms & Conditions
+        </a>
+      </p>
+    </div>
+
+    <div></div>
+
+    <div>
+      <p>
+        📍 110 Front St. Suite 300<br>
+        Jupiter, FL 33477
+      </p>
+
+      <p>
+        📞 / 💬
+        <a href="tel:15615107822">
+          561-510-7822
+        </a>
+      </p>
+
+      <p>
+        ✉
+        <a href="mailto:todd@jupiteraiadvisors.com">
+          todd@jupiteraiadvisors.com
+        </a>
+      </p>
+    </div>
+
+  </div>
+
+  <div class="container copyright">
+    © 2026 Jupiter AI Advisors. All rights reserved.
+  </div>
+</footer>
+<script 
+  src="https://widgets.leadconnectorhq.com/loader.js"
+  data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+  data-widget-id="69ffb31a01f21c5e67b8265d">
+</script>
+</body>
+</html>
