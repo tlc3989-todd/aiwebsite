@@ -1,0 +1,10 @@
+<svg viewBox="0 0 460 142" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="JAIA Jupiter AI Advisors">
+  <style>.logo-text{font-family:Inter,Arial,sans-serif;font-weight:800;fill:#082656}</style>
+  <path d="M0 63H24C24 75 33 83 48 83C64 83 72 74 72 58V0H98V61C98 89 79 106 48 106C18 106 1 89 0 63Z" fill="#173B64"/>
+  <path d="M111 104L166 0H195L250 104H219L181 31L143 104H111Z" fill="#4F8EA8"/>
+  <circle cx="181" cy="73" r="10" fill="#66C3D2"/>
+  <rect x="263" y="0" width="26" height="104" fill="#173B64"/>
+  <path d="M302 104L357 0H386L441 104H410L372 31L334 104H302Z" fill="#4F8EA8"/>
+  <circle cx="372" cy="73" r="10" fill="#D6E4E7"/>
+  <text x="222" y="136" text-anchor="middle" font-size="24" letter-spacing="3.6" class="logo-text">JUPITER AI ADVISORS</text>
+</svg>
